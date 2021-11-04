@@ -8,6 +8,7 @@ import Product from './screens/Product';
 import Checkout from './screens/Checkout';
 
 
+
 export default function App() {
   const Stack = createNativeStackNavigator();
   return (
@@ -16,7 +17,8 @@ export default function App() {
 
         <Stack.Screen name="Home" component={Home} options={{headerShown: false}}/>
         <Stack.Screen name="Product" component={Product} options={{headerShown: false}}/>
-        <Stack.Screen name="Checkout" component={Checkout} options={{headerShown: false}}e/>
+        <Stack.Screen name="Checkout" component={Checkout} options={{headerShown: false}}/>
+        
 
       </Stack.Navigator>
     </NavigationContainer>
