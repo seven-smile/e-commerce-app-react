@@ -533,7 +533,7 @@ export default function Home({navigation}) {
             </View>
           </TouchableOpacity>
 
-          {/* 9th samsung product */}
+          {/* 11th samsung product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
             <Image source={require("../assets/product_images/samsung/tv/qled.png")} style={{width: 130, height: 140}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Galaxy Z Fold </Text>
@@ -549,6 +549,230 @@ export default function Home({navigation}) {
               
             </View>
           </TouchableOpacity>
+
+          {/* 12th samsung product */}
+          <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
+            <Image source={require("../assets/product_images/samsung/SSD/sataIII.png")} style={{width: 130, height: 140}}/>
+            <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Galaxy SATA-III </Text>
+
+            <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+
+              <View style={{flex: 1, alignItems: 'flex-end'}}>
+                <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
+                  <AntDesign name="star" size={15} color="orange"/> 4.3
+                </Text>
+              </View>
+              
+            </View>
+          </TouchableOpacity>
+
+          {/* 1st huawei product */}
+          <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
+            <Image source={require("../assets/product_images/huawei/airpods/free buds 4i/black.png")} style={{width: 130, height: 140}}/>
+            <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Huawei 4i freeBuds </Text>
+
+            <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+
+              <View style={{flex: 1, alignItems: 'flex-end'}}>
+                <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
+                  <AntDesign name="star" size={15} color="orange"/> 4.3
+                </Text>
+              </View>
+              
+            </View>
+          </TouchableOpacity>
+
+          {/* 2nd huawei product */}
+          <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
+            <Image source={require("../assets/product_images/huawei/airpods/freepods 3/cover.png")} style={{width: 130, height: 140}}/>
+            <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Huawei Freepod 3 </Text>
+
+            <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+
+              <View style={{flex: 1, alignItems: 'flex-end'}}>
+                <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
+                  <AntDesign name="star" size={15} color="orange"/> 4.3
+                </Text>
+              </View>
+              
+            </View>
+          </TouchableOpacity>
+
+          {/* 3rd huawei product */}
+          <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
+            <Image source={require("../assets/product_images/huawei/airpods/freepods pro/grey.png")} style={{width: 130, height: 140}}/>
+            <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Freepod Pro </Text>
+
+            <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+
+              <View style={{flex: 1, alignItems: 'flex-end'}}>
+                <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
+                  <AntDesign name="star" size={15} color="orange"/> 4.3
+                </Text>
+              </View>
+              
+            </View>
+          </TouchableOpacity>
+
+          {/* 4th huawei product */}
+          <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
+            <Image source={require("../assets/product_images/huawei/Phones/P30/black.png")} style={{width: 130, height: 140}}/>
+            <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Huawei P30</Text>
+
+            <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+
+              <View style={{flex: 1, alignItems: 'flex-end'}}>
+                <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
+                  <AntDesign name="star" size={15} color="orange"/> 4.3
+                </Text>
+              </View>
+              
+            </View>
+          </TouchableOpacity>
+
+          {/* 5th huawei product */}
+          <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
+            <Image source={require("../assets/product_images/huawei/Phones/P40 lite/black.png")} style={{width: 130, height: 140}}/>
+            <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Huawei P40 Lite</Text>
+
+            <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+
+              <View style={{flex: 1, alignItems: 'flex-end'}}>
+                <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
+                  <AntDesign name="star" size={15} color="orange"/> 4.3
+                </Text>
+              </View>
+              
+            </View>
+          </TouchableOpacity>
+
+          {/* 6th huawei product */}
+          <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
+            <Image source={require("../assets/product_images/huawei/Phones/Y7/blue.png")} style={{width: 130, height: 140}}/>
+            <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Huawei Y7</Text>
+
+            <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+
+              <View style={{flex: 1, alignItems: 'flex-end'}}>
+                <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
+                  <AntDesign name="star" size={15} color="orange"/> 4.3
+                </Text>
+              </View>
+              
+            </View>
+          </TouchableOpacity>
+
+          {/* 7th huawei product */}
+          <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
+            <Image source={require("../assets/product_images/huawei/Phones/nova/blue.png")} style={{width: 130, height: 140}}/>
+            <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Huawei NOVA 5T</Text>
+
+            <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+
+              <View style={{flex: 1, alignItems: 'flex-end'}}>
+                <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
+                  <AntDesign name="star" size={15} color="orange"/> 4.3
+                </Text>
+              </View>
+              
+            </View>
+          </TouchableOpacity>
+
+          {/* 8th huawei product */}
+          <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
+            <Image source={require("../assets/product_images/huawei/tablets/front.png")} style={{width: 130, height: 140}}/>
+            <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Huawei mediaPAd M5</Text>
+
+            <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+
+              <View style={{flex: 1, alignItems: 'flex-end'}}>
+                <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
+                  <AntDesign name="star" size={15} color="orange"/> 4.3
+                </Text>
+              </View>
+              
+            </View>
+          </TouchableOpacity>
+
+          {/* 9th huawei product */}
+          <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
+            <Image source={require("../assets/product_images/huawei/watches/GT 2 PRO/black.png")} style={{width: 130, height: 140}}/>
+            <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Huawei GT2 Pro</Text>
+
+            <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+
+              <View style={{flex: 1, alignItems: 'flex-end'}}>
+                <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
+                  <AntDesign name="star" size={15} color="orange"/> 4.3
+                </Text>
+              </View>
+              
+            </View>
+          </TouchableOpacity>
+
+          {/* 10th huawei product */}
+          <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
+            <Image source={require("../assets/product_images/huawei/watches/fit bluetooth/pink.png")} style={{width: 130, height: 140}}/>
+            <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Huawei Fit</Text>
+
+            <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+
+              <View style={{flex: 1, alignItems: 'flex-end'}}>
+                <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
+                  <AntDesign name="star" size={15} color="orange"/> 4.3
+                </Text>
+              </View>
+              
+            </View>
+          </TouchableOpacity>
+
+          {/* 11th huawei product */}
+          <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
+            <Image source={require("../assets/product_images/huawei/watches/sport watches/white.png")} style={{width: 130, height: 140}}/>
+            <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Huawei Sport watch</Text>
+
+            <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+
+              <View style={{flex: 1, alignItems: 'flex-end'}}>
+                <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
+                  <AntDesign name="star" size={15} color="orange"/> 4.3
+                </Text>
+              </View>
+              
+            </View>
+          </TouchableOpacity>
+
+          {/* 11th huawei product */}
+          <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
+            <Image source={require("../assets/product_images/huawei/watches/sport watches/black.png")} style={{width: 130, height: 140}}/>
+            <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Huawei Sport 2</Text>
+
+            <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+
+              <View style={{flex: 1, alignItems: 'flex-end'}}>
+                <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
+                  <AntDesign name="star" size={15} color="orange"/> 4.3
+                </Text>
+              </View>
+              
+            </View>
+          </TouchableOpacity>
+
+         
+
 
         </View>
       </ScrollView>
