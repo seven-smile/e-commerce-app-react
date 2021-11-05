@@ -63,11 +63,11 @@ export default function Home({navigation}) {
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Apple Airpod pro</Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$50.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
-                  <AntDesign name="star" size={15} color="orange"/> 4.3
+                  <AntDesign name="star" size={15} color="orange"/> 4.1
                 </Text>
               </View>
               
@@ -80,11 +80,11 @@ export default function Home({navigation}) {
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Apple Airpod</Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$60.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
-                  <AntDesign name="star" size={15} color="orange"/> 4.3
+                  <AntDesign name="star" size={15} color="orange"/> 4.2
                 </Text>
               </View>
               
@@ -97,7 +97,7 @@ export default function Home({navigation}) {
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Wired Airpods</Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$70.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -114,11 +114,11 @@ export default function Home({navigation}) {
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Series 1</Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$80.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
-                  <AntDesign name="star" size={15} color="orange"/> 4.3
+                  <AntDesign name="star" size={15} color="orange"/> 4.4
                 </Text>
               </View>
               
@@ -131,7 +131,7 @@ export default function Home({navigation}) {
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Series 2</Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$90.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -148,7 +148,7 @@ export default function Home({navigation}) {
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Apple iPad </Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$100.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -161,11 +161,11 @@ export default function Home({navigation}) {
 
           {/* 7th product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/apple/iphones/7/black.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/apple/iphones/7/black.png")} style={{width: 120, height: 100}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>iPhone 7 Black </Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$110.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -182,7 +182,7 @@ export default function Home({navigation}) {
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>iPhone 8 Gold  </Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$120.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -194,12 +194,12 @@ export default function Home({navigation}) {
           </TouchableOpacity>
 
           {/* 9th product */}
-          <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/apple/iphones/11/green.png")} style={{width: 130, height: 140}}/>
+          <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15}}  onPress={() => navigation.navigate("Product")}>
+            <Image source={require("../assets/product_images/apple/iphones/11/green.png")} style={{width: 110, height: 160}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>iPhone 11 Green</Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$130.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -211,12 +211,12 @@ export default function Home({navigation}) {
           </TouchableOpacity>
 
           {/* 10th product */}
-          <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/apple/iphones/11 pro/gray.png")} style={{width: 130, height: 140}}/>
-            <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>iPhone 11 Pro Gray </Text>
+          <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15}}  onPress={() => navigation.navigate("Product")}>
+            <Image source={require("../assets/product_images/apple/iphones/11 pro/gray.png")} style={{width: 110, height: 160}}/>
+            <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>iPhone 11 Pro</Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$140.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -229,11 +229,11 @@ export default function Home({navigation}) {
 
           {/* 11th product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/apple/iphones/12/red.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/apple/iphones/12/red.png")} style={{width: 120, height: 170}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>iPhone 12 red </Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$150.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -246,11 +246,11 @@ export default function Home({navigation}) {
 
           {/* 12th product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/apple/iphones/12 mini/purple.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/apple/iphones/12 mini/purple.png")} style={{width: 120, height: 170}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>iPhone 12 Purple </Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$160.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -263,11 +263,11 @@ export default function Home({navigation}) {
 
           {/* 13th product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/apple/iphones/12 pro/graph.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/apple/iphones/12 pro/graph.png")} style={{width: 130, height: 180}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>iPhone 12 Pro </Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$1470.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -280,11 +280,11 @@ export default function Home({navigation}) {
 
           {/* 14th product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/apple/iphones/X/x.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/apple/iphones/X/x.png")} style={{width: 80, height: 170}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>iPhone X </Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$180.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -297,11 +297,11 @@ export default function Home({navigation}) {
 
           {/* 15th product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/apple/iphones/XS/gray.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/apple/iphones/XS/gray.png")} style={{width: 100, height: 170}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>iPhone XS </Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$190.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -314,11 +314,11 @@ export default function Home({navigation}) {
 
           {/* 16th product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/apple/iphones/XR/yellow.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/apple/iphones/XR/yellow.png")} style={{width: 130, height: 120}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>iPhone XR  </Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$200.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -330,12 +330,12 @@ export default function Home({navigation}) {
           </TouchableOpacity>
 
           {/* 17th product */}
-          <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/apple/macbook/pro.png")} style={{width: 130, height: 140}}/>
+          <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20,alignItems: "center", marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
+            <Image source={require("../assets/product_images/apple/macbook/pro.png")} style={{width: 130, height: 90}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>MacBook Pro </Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$210.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -348,11 +348,11 @@ export default function Home({navigation}) {
 
           {/* 17th product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/apple/macbook/m1.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/apple/macbook/m1.png")} style={{width: 130, height: 90}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Apple MacBook</Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$220.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -364,12 +364,12 @@ export default function Home({navigation}) {
           </TouchableOpacity>
 
           {/* 1st samsung product */}
-          <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/samsung/ear buds/live/live.png")} style={{width: 130, height: 140}}/>
+          <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15}}  onPress={() => navigation.navigate("Product")}>
+            <Image source={require("../assets/product_images/samsung/ear buds/live/live.png")} style={{width: 120, height: 180}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>EarBuds Live </Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$230.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -382,11 +382,11 @@ export default function Home({navigation}) {
 
           {/* 2nd samsung product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/samsung/ear buds/plus/blue.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/samsung/ear buds/plus/blue.png")} style={{width: 100, height: 60}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>EarBuds Plus </Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$240.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -399,11 +399,11 @@ export default function Home({navigation}) {
 
           {/* 3rd samsung product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/samsung/galaxy_A10e/front.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/samsung/galaxy_A10e/front.png")} style={{width: 80, height: 170}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Galaxy A10e </Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$250.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -415,12 +415,12 @@ export default function Home({navigation}) {
           </TouchableOpacity>
 
           {/* 4th samsung product */}
-          <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/samsung/galaxy_A21s/blue.png")} style={{width: 130, height: 140}}/>
+          <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15}}  onPress={() => navigation.navigate("Product")}>
+            <Image source={require("../assets/product_images/samsung/galaxy_A21s/blue.png")} style={{width: 130, height: 170}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Galaxy A21s </Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$260.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -433,11 +433,11 @@ export default function Home({navigation}) {
 
           {/* 5th samsung product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/samsung/galaxy_A51/black.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/samsung/galaxy_A51/black.png")} style={{width: 130, height: 170}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Galaxy A51</Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$270.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -454,7 +454,7 @@ export default function Home({navigation}) {
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Galaxy Note 20 </Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$280.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -467,11 +467,11 @@ export default function Home({navigation}) {
 
           {/* 7th samsung product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/samsung/galaxy_S20/orange.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/samsung/galaxy_S20/orange.png")} style={{width: 130, height: 170}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Galaxy S20 </Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$290.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -484,11 +484,11 @@ export default function Home({navigation}) {
 
           {/* 8th samsung product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/samsung/galaxy_S21/violet.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/samsung/galaxy_S21/violet.png")} style={{width: 130, height: 170}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Galaxy S21 </Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$300.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -505,7 +505,7 @@ export default function Home({navigation}) {
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Galaxy Z Fold </Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$310.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -518,11 +518,11 @@ export default function Home({navigation}) {
 
           {/* 10th samsung product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/samsung/SSD/ssd.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/samsung/SSD/ssd.png")} style={{width: 170, height: 60}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>970_V-NAND</Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$320.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -535,11 +535,11 @@ export default function Home({navigation}) {
 
           {/* 11th samsung product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/samsung/tv/qled.png")} style={{width: 130, height: 140}}/>
-            <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Galaxy Z Fold </Text>
+            <Image source={require("../assets/product_images/samsung/tv/qled.png")} style={{width: 130, height: 90}}/>
+            <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Sumsumg QLED</Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$330.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -552,11 +552,11 @@ export default function Home({navigation}) {
 
           {/* 12th samsung product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/samsung/SSD/sataIII.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/samsung/SSD/sataIII.png")} style={{width: 130, height: 90}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Galaxy SATA-III </Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$340.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -569,11 +569,11 @@ export default function Home({navigation}) {
 
           {/* 1st huawei product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/huawei/airpods/free buds 4i/black.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/huawei/airpods/free buds 4i/black.png")} style={{width: 140, height: 160}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Huawei 4i freeBuds </Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$360.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -586,11 +586,11 @@ export default function Home({navigation}) {
 
           {/* 2nd huawei product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/huawei/airpods/freepods 3/cover.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/huawei/airpods/freepods 3/cover.png")} style={{width: 130, height: 90}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Huawei Freepod 3 </Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$370.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -607,7 +607,7 @@ export default function Home({navigation}) {
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Freepod Pro </Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$380.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -620,7 +620,7 @@ export default function Home({navigation}) {
 
           {/* 4th huawei product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/huawei/Phones/P30/black.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/huawei/Phones/P30/black.png")} style={{width: 130, height: 170}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Huawei P30</Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
@@ -637,11 +637,11 @@ export default function Home({navigation}) {
 
           {/* 5th huawei product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/huawei/Phones/P40 lite/black.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/huawei/Phones/P40 lite/black.png")} style={{width: 130, height: 170}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Huawei P40 Lite</Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$400.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -654,11 +654,11 @@ export default function Home({navigation}) {
 
           {/* 6th huawei product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/huawei/Phones/Y7/blue.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/huawei/Phones/Y7/blue.png")} style={{width: 130, height: 170}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Huawei Y7</Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$410.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -671,11 +671,11 @@ export default function Home({navigation}) {
 
           {/* 7th huawei product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/huawei/Phones/nova/blue.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/huawei/Phones/nova/blue.png")} style={{width: 130, height: 170}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Huawei NOVA 5T</Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$420.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -688,11 +688,11 @@ export default function Home({navigation}) {
 
           {/* 8th huawei product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/huawei/tablets/front.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/huawei/tablets/front.png")} style={{width: 130, height: 90}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Huawei mediaPAd M5</Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$430.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -705,11 +705,11 @@ export default function Home({navigation}) {
 
           {/* 9th huawei product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/huawei/watches/GT 2 PRO/black.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/huawei/watches/GT 2 PRO/black.png")} style={{width: 130, height: 150}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Huawei GT2 Pro</Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$440.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -722,11 +722,11 @@ export default function Home({navigation}) {
 
           {/* 10th huawei product */}
           <TouchableOpacity style={{backgroundColor: '#eceef4', padding: 20, borderRadius: 20, marginBottom: 15,}}  onPress={() => navigation.navigate("Product")}>
-            <Image source={require("../assets/product_images/huawei/watches/fit bluetooth/pink.png")} style={{width: 130, height: 140}}/>
+            <Image source={require("../assets/product_images/huawei/watches/fit bluetooth/pink.png")} style={{width: 130, height: 150}}/>
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Huawei Fit</Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$450.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -743,7 +743,7 @@ export default function Home({navigation}) {
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Huawei Sport watch</Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$460.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
@@ -760,7 +760,7 @@ export default function Home({navigation}) {
             <Text style={{color: '#7e7f83', fontWeight: 'bold'}}>Huawei Sport 2</Text>
 
             <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 5}}>
-              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$390.00</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 15.5}}>$470.00</Text>
 
               <View style={{flex: 1, alignItems: 'flex-end'}}>
                 <Text style={{fontWeight: 'bold', fontSize: 15.5}}>
