@@ -4,7 +4,8 @@ import { Button, Image, StyleSheet, Text, View, TouchableOpacity } from 'react-n
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { SimpleLineIcons, Ionicons, AntDesign, Feather, MaterialCommunityIcons, FontAwesome5 } from '@expo/vector-icons';
 
-export default function Product({navigation}) {
+export default function Product({route, navigation}) {
+  const {name, price, image} = route.params;
   return (
     <SafeAreaView style={styles.container}>
 
@@ -21,7 +22,7 @@ export default function Product({navigation}) {
       </View>
 
       <View style={{marginTop: 10, backgroundColor: '#fff2ee', alignItems: 'center'}}>
-        <Image source={require("../assets/product_images/test/headphone-1.png")} style={{width: 360, height: 260}}/>
+        <Image source={image} style={{width: 360, height: 260}}/>
       </View>
 
       {/* Product Info */}
@@ -35,13 +36,13 @@ export default function Product({navigation}) {
 
         {/* Product Name */}
         <View style={{marginTop: 20}}>
-          <Text style={{fontWeight: 'bold', fontSize: 18}}>Apple Airpods Max</Text>
+          <Text style={{fontWeight: 'bold', fontSize: 18}}>{name}</Text>
           <Text style={{color: '#7e7f83'}}>Open this page using safari on your Iphone or Ipad</Text>
         </View>
 
         {/* Price */}
         <View style={{marginTop: 20, flexDirection: 'row', alignItems: 'center'}}>
-          <Text style={{color: '#dc6059', fontWeight: 'bold', fontSize: 20}}>$549</Text>
+          <Text style={{color: '#dc6059', fontWeight: 'bold', fontSize: 20}}>{price}</Text>
           <View style={{flex: 1, alignItems: 'flex-end'}}>
             <View style={{flexDirection: 'row', alignItems: 'center'}}>
               <AntDesign name="star" size={21} color="orange" />
