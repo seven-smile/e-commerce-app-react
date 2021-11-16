@@ -22,7 +22,7 @@ export default function Product({route, navigation}) {
       </View>
 
       <View style={{marginTop: 10, backgroundColor: '#fff2ee', alignItems: 'center'}}>
-        <Image source={image} style={{width: 360, height: 260}}/>
+        <Image source={image}  style={{width: 300, height: 260, resizeMode: 'contain'}}/>
       </View>
 
       {/* Product Info */}

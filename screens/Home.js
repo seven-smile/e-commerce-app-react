@@ -740,7 +740,7 @@ export default function Home({navigation}) {
           <Text style={{color: "#ea736d"}}>Home</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={{alignItems: 'center', flex: 1}}>
+        <TouchableOpacity style={{alignItems: 'center', flex: 1}} onPress={() => navigation.navigate("Cart")}>
           <AntDesign name="shoppingcart" size={24} color="#ffff" />
           <Text style={{color: "#fff"}}>Cart</Text>
         </TouchableOpacity>
